@@ -3,7 +3,7 @@ from time import sleep
 
 
 class Protagonista:
-    def __init__(self, nome, vivo=True, level=0, poder=200, vida=100):
+    def __init__(self, nome, vivo=True, level=0, poder=20, vida=100):
         self.nome = nome
         self.vivo = vivo
         self.level = level
